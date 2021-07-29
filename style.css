@@ -1,0 +1,197 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-banner {
+    background-color:#264653;
+    display: flex;
+    width: 100%;
+        
+}
+.banner-buy-btn{ 
+    background-color:#E76F51;
+    padding: 10px 30px;
+    margin:15px;
+    border:none;
+    color:#fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.banner-text{
+    color:#fff;
+}
+.banner-text {
+    width: 50%;
+}
+.font-size{
+    font-size: 40px;
+   
+}
+.banner-image {
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+    
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px; 
+}
+
+
+/* bikes */
+.bikes-container{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bikes{
+    max-width: 80%;
+    margin: auto;
+}
+.bikes img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* letest section */
+.latest{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.latest-box img{
+    width:80%;
+    padding: 30px 15%;
+}
+.latest-text{
+    padding: 15px;
+    height: 50px;
+    font-size: 25px;
+}
+.latest .card{
+    margin-bottom: 10px;
+}
+
+.latest-container h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    padding: 10px 15%;
+}
+  .box-tex{
+      font-size: 20px;
+  }
+  .product-buy-btn{
+    border:none;
+    background: transparent;
+    padding: 10px 30px;
+    margin:15px;
+    border:none;
+    color:#E76F51;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #E76F51;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.product-buy-btn:hover{
+    background: #E76F51;
+    color: #fff;
+}
+.product-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#fff;
+    text-align: center;
+}
+
+
+/* Client section */
+.clients-container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.clients{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.clients .card{
+    padding: 10px;
+    border: 1px solid rgb(196, 194, 194);
+    margin-bottom: 5px;
+}
+.clients img{
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 50%;
+    width: 70%;
+}
+
+
+/* question-section */
+.question-section{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.question-section .card{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* footer-section */
+.footer-section{
+    background: #0B0D17;
+    margin-top: 30px;
+    padding: 20px;
+}
+.content{
+    max-width: 85%;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin: 0 auto;
+    color: #fff;
+}
+.footer-section a{
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer-section a:hover{
+    text-decoration: none;
+}
+
+.ios-btn{
+    background: url('images/ios.PNG');
+    padding: 15px 55px;
+    margin: 10px;
+    border: none;
+}
+.android-btn{
+    background: url('images/android.PNG');
+    padding: 15px 60px;
+    margin: 10px;
+    border: none;
+}
+   
+
+
